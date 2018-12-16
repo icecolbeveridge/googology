@@ -1,0 +1,13 @@
+* Tasks
+** TODO Figure out how PageRank works
+** TODO Implement matrix multiplication
+** TODO Implement derivatives part
+
+* Notes
+** PageRank
+*** Columns of A all add to 1
+*** M = (1-p)A + pB where B = 1/n (ones(n,n))
+*** Team Terrible points to every team
+*** Team Wonderful is pointed to by every team
+*** If Team A is chosen ahead of Team B, there is a link from B to A.
+*** Find principal eigenvector of M
